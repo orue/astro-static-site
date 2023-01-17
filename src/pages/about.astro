@@ -1,11 +1,28 @@
+---
+const pageTitle = 'Who Am I?'
+---
+
 <body>
   <a href="/">Home</a>
   <a href="/about">About</a>
   <a href="/hobbies">Hobbies</a>
-  <h1>Who Am I?</h1>
+  <h1>{pageTitle}</h1>
   <p>
     My name is Carlos and I build my first Astro project using <a
       href="https://www.orue.io">orue.io</a
     >!
   </p>
 </body>
+
+<style>
+  body {
+    font-family: sans-serif;
+  }
+  a {
+    color: orange;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
